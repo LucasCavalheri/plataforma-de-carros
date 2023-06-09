@@ -6,5 +6,6 @@ import { Navbar } from './Navbar'
 import { SearchBar } from './SearchBar'
 import { SearchManufacturer } from './SearchManufacturer'
 import { CarCard } from './CarCard'
+import { CarDetails } from './CarDetails'
 
-export { CustomButton, CustomFilter, Footer, Hero, Navbar, SearchBar, SearchManufacturer, CarCard }
+export { CustomButton, CustomFilter, Footer, Hero, Navbar, SearchBar, SearchManufacturer, CarCard, CarDetails }

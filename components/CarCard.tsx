@@ -5,6 +5,7 @@ import { calculateCarRent } from '@/utils'
 import Image from 'next/image'
 import { CustomButton } from './CustomButton'
 import { useState } from 'react'
+import { CarDetails } from './CarDetails'
 
 export function CarCard({ car }: CarCardProps) {
   const [isOpen, setIsOpen] = useState<boolean>(false)
@@ -35,7 +36,7 @@ export function CarCard({ car }: CarCardProps) {
         />
       </div>
       <div className="relative flex w-full mt-2">
-        <div className="flex group:hover:invisible w-full justify-between text-gray">
+        <div className="flex group:hover:invisible w-full justify-between text-grey">
           <div className="flex flex-col justify-center items-center gap-2">
             <Image
               src="/steering-wheel.svg"
@@ -66,6 +67,7 @@ export function CarCard({ car }: CarCardProps) {
           />
         </div>
       </div>
+      <CarDetails isOpen={isOpen} closeModal={() => setIsOpen(false)} car={car} />
     </div>
   )
 }
