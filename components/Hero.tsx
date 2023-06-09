@@ -29,10 +29,16 @@ export function Hero() {
       </div>
       <div className="hero__image-container">
         <div className="hero__image">
-          <Image src="/hero.png" alt="hero-image" fill className="object-contain" />
-          <div className="hero__image-overlay" />
+          <Image
+            src="/hero.png"
+            alt="hero-image"
+            fill
+            className="object-contain"
+          />
         </div>
+
+        <div className="hero__image-overlay" />
       </div>
     </div>
-  ) 
+  )
 }
