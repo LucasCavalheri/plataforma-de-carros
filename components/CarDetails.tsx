@@ -105,7 +105,7 @@ export function CarDetails({ isOpen, closeModal, car }: CarDetailsProps) {
                           <h4 className="text-grey capitalize">
                             {key.split('_').join(' ')}
                           </h4>
-                          <p className="text-black-100 font-semibold">
+                          <p className="text-black-100 font-semibold capitalize">
                             {value}
                           </p>
                         </div>
