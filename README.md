@@ -15,6 +15,9 @@ Este projeto foi desenvolvido usando as seguintes tecnologias:
 - **TailwindCSS** como biblioteca de estilos;
 - **React.js com Next.js** como framework.
 
+## 🌐 Teste online
+- Acesse <a href="https://plataforma-de-carros.vercel.app/">este site<a/> e você será redirecionado para a versão online
+
 ## ℹ️ Como usar
 Para testar este projeto, precisará das seguintes ferramentas instaladas:
 
