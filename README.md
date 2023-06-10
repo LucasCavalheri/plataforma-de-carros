@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align='center'>
+  <img width="180px" alt="plitter" src="https://cdn-icons-png.flaticon.com/128/2300/2300395.png" />
+  <h1>Plataforma de Carros</h1>
+  <p>
+    Aplicativo FrontEnd para visualização de modelos de carros com opções de filtragem, visualização de um carro através de modais e chamadas à uma API's externas.
+  </p>
+</div>
 
-## Getting Started
+<br /><hr /><br />
 
-First, run the development server:
+## 🖥️ Tecnologias
+Este projeto foi desenvolvido usando as seguintes tecnologias:
+
+- **TypeScript** como linguagem;
+- **TailwindCSS** como biblioteca de estilos;
+- **React.js com Next.js** como framework.
+
+## ℹ️ Como usar
+Para testar este projeto, precisará das seguintes ferramentas instaladas:
+
+- Git
+- NodeJS
+
+<br />
 
 ```bash
+# Clone ou baixe o repositório
+git clone git@github.com:LucasCavalheri/plataforma-de-carros.git
+# Entre no diretório
+cd plataforma-de-carros
+# Instale as dependências
+npm install
+# Inicie o servidor local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br /><hr /><br />
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align='center'>
+  Criado e desenvolvido por <b>Lucas Cavalheri</b>
+  <br/><br/>
+  <a href="https://www.linkedin.com/in/lucas-cavalheri">
+    <img alt="linkedIn" height="30px" src="https://i.imgur.com/TQRXxhT.png" />
+  </a>
+  &nbsp;&nbsp;
+</p>
